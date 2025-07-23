@@ -1,0 +1,63 @@
+# Python / Django
+*.pyc
+__pycache__/
+db.sqlite3
+*.sqlite3
+*.log
+.env
+.env.local
+.env.production
+*.pot
+*.py[cod]
+*.swp
+*.bak
+media/
+staticfiles/
+static_root/
+local_settings.py
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Node / React
+node_modules/
+build/
+dist/
+bundle.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# React cache
+.cache/
+.next/
+out/
+
+# Django migrations (optional)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+**/migrations/*.pkl
+**/migrations/*.py
+!*/migrations/__init__.py
+
+# Coverage / testing
+htmlcov/
+coverage.*
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
