@@ -6,7 +6,6 @@ import RoomJoinPage from './RoomJoinPage'
 function Home() {
   return (
     <div>
-      
       <Routes>
         <Route path="/create-room" element={<CreateRoomPage />} />
         <Route path="/join-room" element={<RoomJoinPage />} />

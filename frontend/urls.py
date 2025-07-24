@@ -1,9 +1,9 @@
 from django.urls import path
 from .views import index
 
-urlpatterns = [
-    path('', index, name='index'),
-    path('index/', index, name='index'),
-    path('join-room/', index, name='join-room'),  
-    path('create-room/', index, name='create-room'),  
-]
+urls = ['','index/', 'join-room/', 'create-room/']
+urlpatterns = []
+
+for url in urls:
+    urlpatterns.append(path(url, index, name=url.replace('/', '')))
+
